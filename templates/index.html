@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+{% block body %}
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Homework</a>
+        <ul class="right">
+            <li>Signed in as {{ user.username }}</li>
+            <li><a href="/logout">logout</a></li>
+        </ul>
+    </div>
+</nav>
+<div id="app"></div>
+{% endblock %}
